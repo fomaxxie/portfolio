@@ -1,4 +1,4 @@
-.navbar {
+.footer-menu {
   background-color: $light-blue;
   opacity: 0.4;
   border: 1px solid;
@@ -6,16 +6,29 @@
   border-radius: 8px;
   padding: 0px;
   justify-content: left;
+  display: flex;
 }
 
-.nav-link{
-  display: flex;
+#find-me{
   border: 1px solid #305783;
   border-radius: 1px;
   padding: 18px;
 }
 
-.nav-link:hover{
+.footer-link{
+  display: flex;
+  border: 1px solid #305783;
+  border-radius: 1px;
+  padding: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.footer-link:hover {
   background-color: #000000;
   color: #ffffff;
+}
+
+.footer-link > a {
+  font-size: 30px;
 }

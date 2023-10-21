@@ -11,8 +11,15 @@ body{
 }
 
 .inner-container{
-  padding: 60px;
+  padding: 16vh;
   display: flex;
+  justify-content: center;
+}
+
+.home-intro{
+  padding-right: 15%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -22,4 +29,29 @@ body{
   border-radius: 50%;
   margin-right: 50px;
   object-fit: cover;
+}
+
+.blurry-gradient-green{
+  background: radial-gradient(circle at 50% 50%,#43d9ad,rgba(76,0,255,0));;
+  border-radius: 100% 0 0;
+  filter: blur(100px);
+  height: 400px;
+  opacity: .5;
+  position: fixed;
+  right: 35%;
+  rotate: 20deg;
+  top: 10%;
+  width: 400px;
+}
+
+.blurry-gradient-blue {
+  background: radial-gradient(circle at 50% 50%,#4d5bce,rgba(76,0,255,0));
+  border-radius: 100% 50% 100% 0;
+  filter: blur(100px);
+  bottom: 10%;
+  height: 500px;
+  opacity: .7;
+  position: fixed;
+  right: 10%;
+  width: 500px;
 }
