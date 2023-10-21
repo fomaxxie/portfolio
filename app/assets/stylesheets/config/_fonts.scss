@@ -1,0 +1,65 @@
+// Import Google fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+// To use a font file (.woff) uncomment following lines
+// @font-face {
+//   font-family: "IntegralCF";
+//   src: font-url('IntegralCF-Bold.woff');
+// }
+
+// Define fonts for body and headers
+$body-font: 'Fira Code', monospace;
+$headers-font: "IntegralCF", "Helvetica", "sans-serif";
+
+
+html, body{
+  font-size: 16px !important;
+}
+
+h1, h2{
+  font-family: $body-font !important;
+  font-weight: 400 !important;
+}
+
+a, p, h3, h4, h5, ul, li{
+  font-family: $body-font !important;
+  font-weight: 300 !important;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+h1{
+  font-size: 56px !important;
+  color: #fcfdff !important;
+}
+h2{
+  font-size: 40px !important;
+  color: #4fcbdf !important;
+}
+h3{
+  font-size: 32px !important;
+  color: #fcfdff !important;
+}
+h4{
+  font-size: 24px !important;
+  color: #fcfdff !important;
+}
+h5{
+  font-size: 16px !important;
+  color: #fcfdff !important;
+}
+small{
+  font-size: 12px !important;
+  color: #fcfdff !important;
+}
+p, a, li{
+  margin: 0 !important;
+  color: #bcd1ff !important;
+}
+
+ul{
+  list-style-type: none;
+}

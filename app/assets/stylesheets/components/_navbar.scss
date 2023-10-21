@@ -1,0 +1,21 @@
+.navbar {
+  background-color: $light-blue;
+  opacity: 0.4;
+  border: 1px solid;
+  border-color: $lighter-blue;
+  border-radius: 8px;
+  padding: 0px;
+}
+
+.nav-link{
+  align-items: center;
+  // display: flex;
+  border: 1px solid #305783;
+  border-radius: 1px;
+  padding: 18px;
+}
+
+.nav-link:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
