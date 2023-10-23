@@ -5,7 +5,10 @@ class PagesController < ApplicationController
   def about
   end
 
-  def project
+  def projects
+  end
+
+  def services
   end
 
 end
